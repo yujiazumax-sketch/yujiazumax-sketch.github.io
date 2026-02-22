@@ -5,15 +5,12 @@
    — ここを編集してギャラリーを更新できます
    ========================================================================== */
 const GALLERY = [
-  { id:'001', title:'NEON CITY',       year:'2025', tags:['CITYSCAPE','NEON'],    img:'images/work-01.svg' },
-  { id:'002', title:'GHOST CIRCUIT',   year:'2025', tags:['CIRCUIT','ABSTRACT'],  img:'images/work-02.svg' },
-  { id:'003', title:'PRISM',           year:'2025', tags:['GEOMETRIC','LIGHT'],   img:'images/work-03.svg' },
-  { id:'004', title:'SYNTHETIC SOUL',  year:'2024', tags:['PORTRAIT','DATA'],     img:'images/work-04.svg' },
-  { id:'005', title:'DATA RAIN',       year:'2024', tags:['MATRIX','STREAM'],     img:'images/work-05.svg' },
-  { id:'006', title:'NEON GRID',       year:'2024', tags:['RETRO','WAVE'],        img:'images/work-06.svg' },
-  { id:'007', title:'VOID EYE',        year:'2024', tags:['SURREAL','OPTIC'],     img:'images/work-07.svg' },
-  { id:'008', title:'BINARY BLOOM',    year:'2023', tags:['GENERATIVE','CODE'],   img:'images/work-08.svg' },
-  { id:'009', title:'WARP GATE',       year:'2023', tags:['SPACE','PORTAL'],      img:'images/work-09.svg' },
+  { id:'001', title:'WORK 01', year:'2025', tags:['ART','SKETCH'], img:'images/IMG_1710.jpg' },
+  { id:'002', title:'WORK 02', year:'2025', tags:['ART','SKETCH'], img:'images/IMG_1711.jpg' },
+  { id:'003', title:'WORK 03', year:'2025', tags:['ART','SKETCH'], img:'images/IMG_1712.jpg' },
+  { id:'004', title:'WORK 04', year:'2025', tags:['ART','SKETCH'], img:'images/IMG_1713.jpg' },
+  { id:'005', title:'WORK 05', year:'2025', tags:['ART','SKETCH'], img:'images/IMG_1714.jpg' },
+  { id:'006', title:'WORK 06', year:'2025', tags:['ART','SKETCH'], img:'images/IMG_1715.jpg' },
 ];
 
 /* ==========================================================================
