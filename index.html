@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYBER.PORTFOLIO — YUJIAZUMAX-SKETCH</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <div class="nav-logo" data-glitch="CYBER.ART">CYBER.ART</div>
+      <ul class="nav-links">
+        <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+        <li><a href="#about"   class="nav-link">ABOUT</a></li>
+        <li><a href="#contact" class="nav-link">CONTACT</a></li>
+      </ul>
+      <div class="nav-status">
+        <span class="status-dot"></span>
+        <span class="status-text">ONLINE</span>
+      </div>
+      <!-- Mobile hamburger -->
+      <button class="nav-hamburger" id="navHamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile drawer -->
+    <div class="nav-drawer" id="navDrawer">
+      <a href="#gallery" class="drawer-link">GALLERY</a>
+      <a href="#about"   class="drawer-link">ABOUT</a>
+      <a href="#contact" class="drawer-link">CONTACT</a>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <canvas id="cityCanvas" class="city-canvas"></canvas>
+
+    <div class="hero-content">
+      <div class="hero-label">// PORTFOLIO SYSTEM v2.0 //</div>
+      <h1 class="hero-title" data-glitch="YUJIAZUMAX">YUJIAZUMAX</h1>
+      <div class="hero-subtitle">DIGITAL ARTIST &amp; VISUAL DESIGNER</div>
+      <div class="hero-tags">
+        <span class="tag">#CYBERPUNK</span>
+        <span class="tag">#DIGITAL_ART</span>
+        <span class="tag">#NEON_CITY</span>
+      </div>
+      <a href="#gallery" class="hero-btn">
+        <span class="btn-text">ENTER SYSTEM</span>
+        <span class="btn-arrow">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="hero-scroll">
+      <span class="scroll-label">SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="section gallery-section" id="gallery">
+    <div class="section-header reveal">
+      <span class="section-num">01</span>
+      <h2 class="section-title">GALLERY</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about-section" id="about">
+    <div class="section-header reveal">
+      <span class="section-num">02</span>
+      <h2 class="section-title">ABOUT</h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="about-grid">
+      <!-- Left: Photo + Stats -->
+      <div class="about-visual reveal">
+        <div class="about-frame">
+          <div class="frame-scan"></div>
+          <!-- Replace the div below with an <img> tag when you have a photo -->
+          <div class="about-photo-placeholder">
+            <div class="placeholder-grid"></div>
+            <div class="placeholder-icon">&#9672;</div>
+            <div class="placeholder-label">ARTIST_PHOTO.jpg</div>
+          </div>
+          <span class="fc tl"></span>
+          <span class="fc tr"></span>
+          <span class="fc bl"></span>
+          <span class="fc br"></span>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <div class="stat-val" data-count="47">0</div>
+            <div class="stat-key">WORKS</div>
+          </div>
+          <div class="stat">
+            <div class="stat-val" data-count="5">0</div>
+            <div class="stat-key">YEARS</div>
+          </div>
+          <div class="stat">
+            <div class="stat-val" data-count="12">0</div>
+            <div class="stat-key">EXHIBITIONS</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Text -->
+      <div class="about-content reveal">
+        <p class="about-label">// ARTIST STATEMENT //</p>
+        <h3 class="about-name">YUJIAZUMAX</h3>
+        <p class="about-role">Digital Artist / Visual Designer</p>
+        <p class="about-text">
+          都市の光と影の間に生きるデジタルアーティスト。未来の上海を夢想しながら、ネオンの光が雨に濡れたアスファルトに反射するような、その瞬間の美しさを作品に閉じ込める。
+        </p>
+        <p class="about-text">
+          テクノロジーと人間性の交差点を探求し、デジタルとアナログの境界を溶かすような視覚体験を創造する。サイバーパンクの美学と現代アートの文脈を融合させた独自のスタイルで、見る者を近未来の世界へと誘う。
+        </p>
+        <div class="skill-list">
+          <span class="skill-tag">DIGITAL ILLUSTRATION</span>
+          <span class="skill-tag">3D MODELING</span>
+          <span class="skill-tag">MOTION GRAPHICS</span>
+          <span class="skill-tag">CONCEPT ART</span>
+          <span class="skill-tag">UI / UX DESIGN</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact-section" id="contact">
+    <div class="section-header reveal">
+      <span class="section-num">03</span>
+      <h2 class="section-title">CONTACT</h2>
+      <div class="section-rule"></div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-text reveal">
+        <p class="contact-label">// TRANSMISSION CHANNEL //</p>
+        <p class="contact-desc">お仕事のご依頼、コラボレーション、<br>その他のお問い合わせはこちらから。</p>
+      </div>
+      <div class="contact-links reveal">
+        <!-- ↓ Replace href values with your real links -->
+        <a href="mailto:your@email.com" class="c-link">
+          <span class="c-icon">&#9993;</span>
+          <span class="c-text">your@email.com</span>
+          <span class="c-label">EMAIL</span>
+        </a>
+        <a href="https://twitter.com/yourusername" class="c-link" target="_blank" rel="noopener">
+          <span class="c-icon">&#120143;</span>
+          <span class="c-text">@yourusername</span>
+          <span class="c-label">X / TWITTER</span>
+        </a>
+        <a href="https://instagram.com/yourusername" class="c-link" target="_blank" rel="noopener">
+          <span class="c-icon">&#9672;</span>
+          <span class="c-text">@yourusername</span>
+          <span class="c-label">INSTAGRAM</span>
+        </a>
+        <a href="https://github.com/yourusername" class="c-link" target="_blank" rel="noopener">
+          <span class="c-icon">&#11042;</span>
+          <span class="c-text">yourusername</span>
+          <span class="c-label">GITHUB</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">CYBER.ART</span>
+      <span class="footer-copy">&copy; 2025 YUJIAZUMAX-SKETCH. ALL RIGHTS RESERVED.</span>
+      <span class="footer-ver">SYS_VER: 2.0.25</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
