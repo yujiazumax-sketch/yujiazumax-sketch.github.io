@@ -548,10 +548,10 @@ const App = () => {
           {/* Section Header */}
           <div className="text-center space-y-8">
             <h2 className="text-3xl sm:text-5xl font-light text-slate-100 tracking-wide leading-tight">
-              Crystal Math is satisfying mathematics.
+              Crystal Math gives purpose to the remainder.
             </h2>
             <p className="text-lg sm:text-xl font-light text-slate-400 tracking-widest">
-              結晶数学は、スッキリする数学です。
+              結晶数学は、余りに役割を与える数学です。
             </p>
           </div>
 
@@ -560,7 +560,7 @@ const App = () => {
             <p className="text-slate-300 font-light leading-loose text-lg sm:text-xl tracking-wide max-w-2xl mx-auto">
               10 ÷ 3 leaves a remainder of 1. I used to find this leftover part unsettling.<br className="hidden sm:block" />
               So, let's give the remainder a role and create a "beautiful" and "striking" crystal!<br className="hidden sm:block" />
-              This should finally leave you feeling completely satisfied.
+              Let's turn this unresolved leftover into something uniquely fascinating.
             </p>
           </div>
 
